@@ -1,3 +1,5 @@
+
+
 tareas = []  
 def agregar_tarea(nombre):
     tareas.append({"nombre": nombre, "completada": False})
@@ -17,4 +19,3 @@ agregar_tarea("Pasar el curso de programación")
 completar_tarea(1)
 completar_tarea(0)
 mostrar_tareas()
-
