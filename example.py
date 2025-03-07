@@ -1,5 +1,4 @@
-
-
+#this is my code...
 tareas = []  
 def agregar_tarea(nombre):
     tareas.append({"nombre": nombre, "completada": False})
